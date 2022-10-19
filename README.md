@@ -2,6 +2,12 @@
 
 A Middleware for getting progress
 
+[![codecov](https://codecov.io/gh/fatcherjs/middleware-progress/branch/master/graph/badge.svg?token=TFKUGW6YNI)](https://codecov.io/gh/fatcherjs/middleware-progress)
+[![install size](https://packagephobia.com/badge?p=@fatcherjs/middleware-progress)](https://packagephobia.com/result?p=@fatcherjs/middleware-progress)
+<a href="https://unpkg.com/@fatcherjs/middleware-progress"><img alt="Size" src="https://img.badgesize.io/https://unpkg.com/@fatcherjs/middleware-progress"></a>
+<a href="https://npmjs.com/package/@fatcherjs/middleware-progress"><img src="https://img.shields.io/npm/v/@fatcherjs/middleware-progress.svg" alt="npm package"></a>
+<a href="https://github.com/fatcherjs/middleware-progress/actions/workflows/ci.yml"><img src="https://github.com/fatcherjs/middleware-progress/actions/workflows/ci.yml/badge.svg?branch=master" alt="build status"></a>
+
 ## Install
 
 ### NPM
@@ -31,7 +37,7 @@ fatcher({
             },
         }),
     ],
-    payload: {
+    body: {
         bar: 'foo',
     },
 })
@@ -52,4 +58,4 @@ fatcher({
 
 ## License
 
-[MIT](https://github.com/fatcherjs/fatcher/blob/master/LICENSE)
+[MIT](./LICENSE)
