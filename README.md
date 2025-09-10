@@ -1,8 +1,25 @@
 # @fatcherjs/middleware-progress
 
-<a href="https://npmjs.com/package/@fatcherjsjs/middleware-progress"><img src="https://img.shields.io/npm/v/@fatcherjsjs/middleware-progress.svg" alt="npm package"></a>
-[![install size](https://packagephobia.com/badge?p=@fatcherjs/middleware-progress)](https://packagephobia.com/result?p=@fatcherjs/middleware-progress)
-<a href="https://unpkg.com/@fatcherjs/middleware-progress"><img alt="Size" src="https://img.badgesize.io/https://unpkg.com/@fatcherjs/middleware-progress"></a>
+<div align="center">
+  <a href="https://codecov.io/github/fatcherjs/middleware-progress" > 
+    <img src="https://codecov.io/github/fatcherjs/middleware-progress/graph/badge.svg?token=JZ22RH00S5"/> 
+ </a>
+  <a href="https://www.jsdelivr.com/package/npm/@fatcherjs/middleware-progress">
+    <img src="https://data.jsdelivr.com/v1/package/npm/@fatcherjs/middleware-progress/badge?style=rounded" alt="jsDelivr">
+  </a>
+  <a href="https://packagephobia.com/result?p=@fatcherjs/middleware-progress">
+    <img src="https://packagephobia.com/badge?p=@fatcherjs/middleware-progress" alt="install size">
+  </a>
+  <a href="https://unpkg.com/@fatcherjs/middleware-progress">
+    <img src="https://img.badgesize.io/https://unpkg.com/@fatcherjs/middleware-progress" alt="Size">
+  </a>
+  <a href="https://npmjs.com/package/@fatcherjs/middleware-progress">
+    <img src="https://img.shields.io/npm/v/@fatcherjs/middleware-progress.svg" alt="npm package">
+  </a>
+  <a href="https://github.com/fatcherjs/middleware-progress/actions/workflows/ci.yml">
+    <img src="https://github.com/fatcherjs/middleware-progress/actions/workflows/ci.yml/badge.svg?branch=master" alt="build status">
+  </a>
+</div>
 
 ## Install
 
