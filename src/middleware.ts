@@ -20,13 +20,13 @@ export const progress: FatcherMiddleware = {
 
     let current = 0;
 
-    const [stream, tee] = response.body.tee();
+    const clonedResponse = response.clone();
 
-    readStreamByChunk(stream, chunk => {
+    readStreamByChunk(response.body, chunk => {
       current += chunk.length;
       onDownloadProgress(current, total);
     });
 
-    return new Response(tee, response);
+    return clonedResponse;
   },
 };
